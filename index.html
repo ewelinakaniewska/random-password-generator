@@ -1,0 +1,36 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <h1>Generate a <span class="random-pass">random password</span></h1>
+        <p>Never use an insecure password again.</p>
+
+        <span class=""><label for="pass-length" class="pass-length-label">Password length (max 18): </label><input type="number" id="pass-length" max="18" min="1"/></span>
+        <span class="pass-input-container">
+            <span><label>symbols </label> <input type="checkbox" id="symbols-input" checked > </span>
+            <span><label>numbers </label> <input type="checkbox" id="numbers-input" checked ></span>
+        </span>
+
+        <button class="generate-btn" id="generate-btn">Generate passwords</button>
+        <div class="passwords-container">
+            <input type="text" class="password" id="pass1"  readonly disabled/>
+            <input type="text" class="password" id="pass2" readonly disabled/>
+        </div>
+        <div class="copied-container">
+            <span id="pass1-span" class="pass-span invisible">copied!</span>
+            <span id="pass2-span" class="pass-span invisible">copied!</span>
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+
+</html>
