@@ -2,6 +2,8 @@
 
 Aplikacja webowa służąca do generowania silnych, losowych haseł z możliwością personalizacji ich długości oraz zawartości. Projekt stworzony w czystym **JavaScript (Vanilla JS)**, **HTML5** i **CSS3** przy użyciu środowiska deweloperskiego **Vite**.
 
+https://ewelinakaniewska.github.io/random-password-generator/
+
 ---
 
 ## Funkcjonalności aplikacji
